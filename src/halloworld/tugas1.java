@@ -14,9 +14,9 @@ public class tugas1 {
         int i,j,k;
         
         
-        for(i=0;i<=4;i++)
+        for(i=0;i<=5;i++)
         {
-            for(j=4;j>=i;j--)
+            for(j=5;j>=i;j--)
             {
             System.out.print(" ");
             }
