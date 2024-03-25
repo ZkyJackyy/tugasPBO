@@ -15,21 +15,19 @@ public class perulangan {
         int i,j,k;
         
         
-        for(i=0;i<=4;i++)
+        for(i=0;i<3;i++)
         {
-            for(j=4;j>=i;j--)
+            for(j=0;j<3-i-1;j++)
             {
             System.out.print(" ");
             }
         
-        for(k=0;k<=i;k++){
+        for(k=0;k<2*i+1;k++){
             
-            if(i==0){
-                System.out.print(" *");
-            }
-            if(j%2==1){
-            System.out.print(" *");
-        }
+            
+                System.out.print("*");
+            
+           
            
             
         }System.out.println("");
